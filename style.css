@@ -1,0 +1,73 @@
+body {
+  background-color: #fbefec;
+  color: #1c3848;
+  font-family: "Funnel Display", serif;
+  font-size: 18px;
+  line-height: normal;
+}
+
+h1,
+h2 {
+  font-family: "Sour Gummy", serif;
+  color: #31081F;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 50px;
+}
+
+a {
+  text-decoration: none;
+  font-size: larger;
+  :hover {
+    color: #e7a8ca !important;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.3s ease 0s;
+    transform: rotateY(360deg);
+  }
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.card {
+  background-color: rgb(249, 235, 235);
+  padding: 40px 50px;
+  margin-top: 24px;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0px 0px 26px rgba(0, 0, 0, 0.15);
+}
+
+#img-circle {
+  width: 150px;
+  border-radius: 50%;
+}
+
+#btn-box {
+  background-color: #e7a8ca;
+  border-radius: 10px;
+  padding: 6px;
+  color: white;
+}
+
+#btn-box:hover {
+  color: #663a51 !important;
+  border-radius: 50px;
+  border-color: #494949 !important;
+  transition: all 0.3s ease 0s;
+  transform: rotateY(360deg);
+}
+
+.list {
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.icon {
+  font-size: 40px;
+  letter-spacing: 8px;
+}
